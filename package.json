@@ -1,0 +1,15 @@
+{
+  "name": "example-html",
+  "version": "1.0.0",
+  "description": "clear",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^3.0.2"
+  }
+}
