@@ -7,10 +7,10 @@
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://dianag76.github.io/Techdegree-1",
       "github_link": "https://github.com/dianag76/Techdegree-1",
-      "images_urls":
+      "image_urls":
       [
-        "/static/images/project11.png",
-        "/static/images/project12.png"
+        "/images/project11.png",
+        "/images/project12.png"
       ]
     },
     {
@@ -20,12 +20,8 @@
       "technologies": ["JavaScript", "HTML", "CSS" ],
       "live_link": "https://dianag76.github.io/Project-2/",
       "github_link": "https://github.com/dianag76/Project-2.git",
-      "images_urls": 
-      [
-        "/static/images/project21.png",
-        "/static/images/project22png"
-      ]
-    },
+      "image_urls": "/images/project21.png"
+       },
     {
       "id": 2,
       "project_name": "Interative Form",
@@ -33,9 +29,9 @@
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://dianag76.github.io/Techdegree-3",
       "github_link": "https://github.com/dianag76/Techdegree-3.git",
-      "images_urls": [
-        "/static/images/project31.png",
-        "/static/images/project32.png"
+      "image_urls": [
+        "/images/project31.png",
+        "/images/project32.png"
       ]
     },
     {
@@ -45,9 +41,9 @@
       "technologies": [ "JavaScript","HTML", "CSS"],
       "live_link": "https://dianag76.github.io/Techdegree-4",
       "github_link": "https://github.com/dianag76/Techdegree-4.git",
-      "images_urls": [
-        "/static/images/project41.png",
-        "/static/images/project42.png"
+      "image_urls": [
+        "/images/project41.png",
+        "/images/project42.png"
       ]
     },
     {
@@ -57,9 +53,9 @@
       "technologies": [ "JavaScript", "HTML", "CSS","API"],
       "live_link": "https://dianag76.github.io/Techdegree-5/",
       "github_link": "https://github.com/dianag76/Techdegree-5.git",
-      "images_urls": [
-        "/static/images/project51.png",
-        "/static/images/project52.png"
+      "image_urls": [
+        "/images/project51.png",
+        "/images/project52.png"
       ]
     }
   ]
