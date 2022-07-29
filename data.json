@@ -9,8 +9,8 @@
       "github_link": "https://github.com/dianag76/Techdegree-1",
       "image_urls":
       [
-        "/images/project11.png",
-        "/images/project12.png"
+        "/static/images/project11.png",
+        "/static/images/project12.png"
       ]
     },
     {
@@ -20,7 +20,10 @@
       "technologies": ["JavaScript", "HTML", "CSS" ],
       "live_link": "https://dianag76.github.io/Project-2/",
       "github_link": "https://github.com/dianag76/Project-2.git",
-      "image_urls": "/images/project21.png"
+      "image_urls": 
+      ["/static/images/project21.png",
+        "/static/images/project22.png"
+    ]
        },
     {
       "id": 2,
@@ -30,8 +33,8 @@
       "live_link": "https://dianag76.github.io/Techdegree-3",
       "github_link": "https://github.com/dianag76/Techdegree-3.git",
       "image_urls": [
-        "/images/project31.png",
-        "/images/project32.png"
+        "/static/images/project31.png",
+        "/static/images/project32.png"
       ]
     },
     {
@@ -42,8 +45,8 @@
       "live_link": "https://dianag76.github.io/Techdegree-4",
       "github_link": "https://github.com/dianag76/Techdegree-4.git",
       "image_urls": [
-        "/images/project41.png",
-        "/images/project42.png"
+        "/static/images/project41.png",
+        "/static/images/project42.png"
       ]
     },
     {
@@ -54,8 +57,8 @@
       "live_link": "https://dianag76.github.io/Techdegree-5/",
       "github_link": "https://github.com/dianag76/Techdegree-5.git",
       "image_urls": [
-        "/images/project51.png",
-        "/images/project52.png"
+        "/static/images/project51.png",
+        "/static/images/project52.png"
       ]
     }
   ]

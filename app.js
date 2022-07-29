@@ -28,6 +28,7 @@ app.get('/projects/:id', function(req, res, next) {
         res.render('project', { project });
     } else {
         res.sendStatus(404);
+//add custom message
     }
 });
 
