@@ -1,57 +1,41 @@
 const express = require('express');
 const app = express();
-const data = require('./data.json');
+const { projects } = require("./data.json")
+const router = express.Router();
 const port = 3000;
 
 
-//middleware 
+// middleware 
 app.set('view engine', 'pug');
-app.use("/static", express.static('public'));
+app.use('/static', express.static('public'));
 
-//Routes 
-app.get('/', (req, res) => {
-  res.render('index');
+
+// Routes 
+app.get('/', function(req, res, next) {
+  res.render('index', { projects });
 });
 
-// app.get('/about', (req, res) => {
-    // res.render('about', { about })
-// });
+app.get('/about', (req, res) => {
+    res.render('about');
+});
 // 
 // 
-// app.get('/projects/:id', (req, res, next) => {
-    // const projectId = +req.params.id;
-    // const project = data[projectId]
-// 
-    // if (project) {
-        // res.render('project', { project });
-    // } else {
-        // next();
-    // }
-// });
-// 
+app.get('/projects/:id', function(req, res, next) {
+    const projectId = req.params.id;
+    const project = projects.find( ({ id }) => id === +projectId);
+
+    if (project) {
+        res.render('project');
+    } else {
+        res.sendStatus(404);
+    }
+});
+
 app.listen(port, () => {
     console.log(`App listening on port ${port}`)
-})
-
-
-//Handling errors
-app.use((req, res, next) => {
-    const err = new Error('page not found');
-    err.status = 404;
-    next(err);
 });
 
-app.use((err, req, res, next) => {
-    console.log('Global error', err)
-        if (err.status === 404) {
-        res.status(404)
+// Handling errors
 
-         } else {
-        err.message = err.message || "Oh no! It looks like something went wrong with the server"
-        res.status(err.status || 500)
-         }
-})
-
-
-
+module.exports = router;
 
