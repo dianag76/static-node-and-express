@@ -27,8 +27,11 @@ app.get('/projects/:id', function(req, res, next) {
     if (project) {
         res.render('project', { project });
     } else {
-        res.sendStatus(404);
-//add custom message
+        // res.sendStatus(404);
+        const err = new Error("Oops.Project not found")
+        err.status = 404;
+        console.log(err);
+        next(err);
     }
 });
 
@@ -37,6 +40,13 @@ app.listen(port, () => {
 });
 
 // Handling errors
+app.use((err, req, res, next) => {
+    if(err){
+        const err = new Error("Oops.Page not found")
+        err.status = 404;
+        console.log(err);
+        next(err);
+    }
+});
 
 module.exports = router;
-

@@ -5,8 +5,8 @@
       "project_name": "Random Quote Generator",
       "description": " A random quote is displayed when page is refreshed",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "https://dianag76.github.io/Techdegree-1",
-      "github_link": "https://github.com/dianag76/Techdegree-1",
+      "live_link": "https://dianag76.github.io/Random.Quote.Generator/",
+      "github_link": "https://github.com/dianag76/Random.Quote.Generator.git",
       "image_urls":
       [
         "/static/images/project11.png",
@@ -18,8 +18,8 @@
       "project_name": "Data Pagination",
       "description": "functionality added to page to return 9 users on page",
       "technologies": ["JavaScript", "HTML", "CSS" ],
-      "live_link": "https://dianag76.github.io/Project-2/",
-      "github_link": "https://github.com/dianag76/Project-2.git",
+      "live_link": "https://dianag76.github.io/Data.Pagination/",
+      "github_link": "https://github.com/dianag76/Data.Pagination.git",
       "image_urls": 
       ["/static/images/project21.png",
         "/static/images/project22.png"
@@ -30,8 +30,8 @@
       "project_name": "Interative Form",
       "description": "Form interactivity, highlights if form is not filled in correctly",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "https://dianag76.github.io/Techdegree-3",
-      "github_link": "https://github.com/dianag76/Techdegree-3.git",
+      "live_link": " https://dianag76.github.io/Interactive.Form/",
+      "github_link": "https://github.com/dianag76/Interactive.Form.git",
       "image_urls": [
         "/static/images/project31.png",
         "/static/images/project32.png"
@@ -42,8 +42,8 @@
       "project_name": "Phrase Hunter",
       "description": "A game that asks players to guess the hidden phrase",
       "technologies": [ "JavaScript","HTML", "CSS"],
-      "live_link": "https://dianag76.github.io/Techdegree-4",
-      "github_link": "https://github.com/dianag76/Techdegree-4.git",
+      "live_link": "https://dianag76.github.io/Phrase.Hunter/",
+      "github_link": "https://github.com/dianag76/Phrase.Hunter.git",
       "image_urls": [
         "/static/images/project41.png",
         "/static/images/project42.png"
@@ -54,8 +54,8 @@
       "project_name": "Public API Request",
       "description": "This project fetches data from API to populate webpage and modal",
       "technologies": [ "JavaScript", "HTML", "CSS","API"],
-      "live_link": "https://dianag76.github.io/Techdegree-5/",
-      "github_link": "https://github.com/dianag76/Techdegree-5.git",
+      "live_link": "https://dianag76.github.io/Public.API.Request/",
+      "github_link": "https://github.com/dianag76/Public.API.Request.git",
       "image_urls": [
         "/static/images/project51.png",
         "/static/images/project52.png"
